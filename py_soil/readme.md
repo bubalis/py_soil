@@ -37,7 +37,7 @@ Contains a few functions for estimating erosion, including the USLE and the MUSL
 \
 To install, download this repository and run  
 
-```pip freeze -r requirements.txt ```
+```pip install -r requirements.txt ```
 
 
 
