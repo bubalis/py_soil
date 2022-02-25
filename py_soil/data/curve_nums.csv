@@ -1,0 +1,56 @@
+crop_cover,treatment_or_practice,hydrologic_condition,A,B,C,D,water,not_rated
+fallow,crop residue cover,poor,76,85,90,93,93,90
+fallow,crop residue cover,good,74,83,88,90,90,88
+row crops,straight row,poor,72,81,88,91,91,88
+row crops,straight row,good,67,78,85,89,89,85
+row crops,straight row w/ residue,poor,71,80,87,90,90,87
+row crops,straight row w/ residue,good,64,75,82,85,85,82
+row crops,contoured,poor,70,79,84,88,88,84
+row crops,contoured,good,65,75,82,86,86,82
+row crops,contoured w/ residue,poor,69,78,83,87,87,83
+row crops,contoured w/ residue,good,64,74,81,85,85,81
+row crops,contoured & terraced,poor,66,74,80,82,82,80
+row crops,contoured & terraced,good,62,71,78,81,81,78
+row crops,contoured & terraced w/ residue,poor,65,73,79,81,81,79
+row crops,contoured & terraced w/ residue,good,61,70,77,80,80,77
+small grains,straight row,poor,65,76,84,88,88,84
+small grains,straight row,good,63,75,83,87,87,83
+small grains,straight row w/ residue,poor,64,75,83,86,86,83
+small grains,straight row w/ residue,good,60,72,80,84,84,80
+small grains,contoured,poor,63,74,82,85,85,82
+small grains,contoured,good,61,73,81,84,84,81
+small grains,contoured w/ residue,poor,62,73,81,84,84,81
+small grains,contoured w/ residue,good,60,72,80,83,83,80
+small grains,contoured & terraced,poor,61,72,79,82,82,79
+small grains,contoured & terraced,good,59,70,78,81,81,78
+small grains,contoured & terraced w/ residue,poor,60,71,78,81,81,78
+small grains,contoured & terraced w/ residue,good,58,69,77,80,80,77
+temp hay,straight row,poor,66,77,85,89,89,85
+temp hay,straight row,good,58,72,81,85,85,81
+temp hay,contoured,poor,64,75,83,85,85,83
+temp hay,contoured,good,55,69,78,83,83,78
+temp hay,contoured & terraced,poor,63,73,80,83,83,80
+temp hay,contoured & terraced,good,51,67,76,80,80,76
+pasture,,poor,68,79,86,89,89,86
+pasture,,fair,49,69,79,84,84,79
+pasture,,good,39,61,74,80,80,74
+hay,,,30,58,71,78,78,71
+shrubs,,poor,48,67,77,83,83,77
+shrubs,,fair,35,56,70,77,77,70
+shrubs,,good,30,48,65,73,73,65
+tree crops,,poor,57,73,82,86,86,82
+tree crops,,fair,43,65,76,82,82,76
+tree crops,,good,32,58,72,79,79,72
+forest,,poor,45,66,77,83,83,77
+forest,,fair,36,60,73,79,79,73
+forest,,good,30,55,70,77,77,70
+developed_high,85%,,89,92,94,95,95,94
+developed_high,72%, ,81,88,91,93,93,91
+developed_medium,65%,,77,85,90,92,92,90
+developed_low,38%,,61,75,83,87,87,83
+developed_low,30%,,57,72,81,86,86,81
+developed_low,25%,,54,70,80,85,85,80
+developed_open,20%,,51,68,79,84,84,79
+developed_open,12%,,46,65,77,82,82,77
+open_water,,,100,100,100,100,100,100
+wetland,,,30,58,71,78,78,71
