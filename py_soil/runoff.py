@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb 24 09:48:43 2022
-
-@author: benja
+Functions for predicting runoff, relating to the NRCS curve-number method.
 """
 
 import math
@@ -10,7 +8,7 @@ import numpy as np
 from numpy import exp, log, nan
 from sympy.solvers import solve
 from sympy import Symbol, Eq
-import greenampt
+#import greenampt
 import pandas as pd
 import os
 

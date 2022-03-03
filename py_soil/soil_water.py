@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb 24 09:37:24 2022
-
-@author: benja
+Pedo-transfer functions for predicting soil water parameters such as water content 
+at field capacity, permanent wilting point and saturation. 
 """
 
 

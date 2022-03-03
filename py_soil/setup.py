@@ -13,12 +13,14 @@ import Cython.Compiler.Options
 import numpy
 Cython.Compiler.Options.annotate = True
 
-#path = os.path.join(os.getcwd(), "dumb.pyx")
-path = os.path.join(os.getcwd(), "greenampt_cy.pyx")
 
-assert os.path.exists(path)
-setup(
-    ext_modules = cythonize(path, annotate = True),
-    package_dir = {'runoff_erosion': ''},
-    include_dirs=[numpy.get_include()]
-)
+if __name__ == '__main__':
+    #path = os.path.join(os.getcwd(), "dumb.pyx")
+    path = os.path.join(os.getcwd(), "greenampt_cy.pyx")
+    
+    #assert os.path.exists(path)
+    setup(
+        ext_modules = cythonize(path, annotate = True),
+        package_dir = {'runoff_erosion': ''},
+        include_dirs=[numpy.get_include()]
+    )

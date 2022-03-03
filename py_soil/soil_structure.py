@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb 24 10:14:07 2022
-
-@author: benja
+Pedo-transfer functions for soil structure parameters, 
+including multiple methods for the Universal Soil Loss Equation Erodibility Factor (K).
 """
 
 

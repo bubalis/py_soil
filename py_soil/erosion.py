@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb 24 09:36:16 2022
-
-@author: benja
+A few functions for calculating erosion using the Universal Soil Loss Equation
+(USLE)
 """
 
 from numpy import product, exp
@@ -26,8 +25,7 @@ def usle(R, K, C, P, LS):
 
     Returns
     -------
-    TYPE
-        DESCRIPTION.
+    Soil Erosion (metric tons/acre/yr)
 
     '''
     
@@ -85,7 +83,7 @@ def musle(R_factor, K, C, P , LS, CFRG):
         
  Page 252 SWAT technical docs
    '''
-   sed_yield = np.product([11.8, R_factor, K, C, P, LS, CFRG ])
+   sed_yield = product([11.8, R_factor, K, C, P, LS, CFRG ])
    return sed_yield
    
 
